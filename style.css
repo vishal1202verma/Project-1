@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color:#edf1fd;
+    font-family: 'Poppins', sans-serif;
+   
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    
+    
+}
+
+nav ul li {
+    display:inline-flex;
+    flex-wrap: wrap;
+    margin:15px 14px;
+    text-align: center;
+  
+   
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: larger;
+    font-family:'Poppins', sans-serif ;
+    margin:15px 14px;
+    cursor: pointer;
+}
+nav ul li :hover{
+    text-decoration: underline;
+    font-weight: 650;
+    color: rgb(88, 60, 248);
+}
+.logo{
+    margin:25px 44px;
+    font-size: x-large;
+}
+ #search-box{
+   margin: 14px 34px;
+   padding: 8px 18px;
+   font-size:medium;
+   border-radius: 18px;
+   width: 300px;
+    
+    
+}
+.btn{
+    margin: 5px  28px;
+    padding: 8px 28px;
+    background-color:#b565a7;
+    color: white;
+    border-radius: 24px;
+    font-size: 14px;
+    cursor: pointer;
+    width:auto;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+section.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-section{
+    margin: 84px 134px ;
+    padding: 14px 24px;
+    font-size: x-large;
+
+}
+h1{
+    font-size:x-large;
+    font-weight: 600;
+    margin-right: 12px;
+}
+span{
+    color:#29cacf ;
+    font-size:larger;
+    
+}
+img.my-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 84px 134px ;
+    padding: 14px 24px;
+    /* border: 2px solid red; */
+    /* border-radius: 50%; */
+    height: 234px;
+    width: 244px;
+    
+    
+}
+.btn-chat{
+    margin-left:185px;
+     margin-bottom: 0;
+    
+    padding: 8px 28px;
+    background-color:#b565a7;
+    color: white;
+    border-radius: 24px;
+    cursor: pointer;
+
+}
+.btn-chat:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.footer-left{
+    margin: 94px 130px ;
+    padding: 8px 14px;
+    font-size: large;
+
+}
+div.footer-right{
+    display:inline;
+    margin: 44px 134px ;
+    padding: 14px 24px;
+}
+div.footer-right ul{
+    margin-top: 54px;
+}
+div.footer-right ul li{
+    display:inline;
+    margin: 324px 18px;
+    font-size: x-large;
+    
+}
+
+
+
+   
+
+
+          
+
+
+
+ 
+
+
